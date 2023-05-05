@@ -1,7 +1,7 @@
 FROM python:3.9-alpine3.17
 LABEL maintainer="sumanthjammula"
 
-ENV PYTHONBUFFERED 1
+ENV PYTHONUBUFFERED 1
 
 
 COPY ./requirements.txt /tmp/requirements.txt
